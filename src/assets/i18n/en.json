@@ -1,0 +1,20 @@
+{
+  "select-placeholder": "Select city ...",
+  "search-placeholder": "Find city ...",
+  "Temperature": "Temperature",
+  "Windspeed": "Windspeed",
+  "Winddirection": "Winddirection",
+  "Weather": "Weather",
+  "clear": "Mainly clear, partly cloudy, and overcast",
+  "Fog": "Fog and depositing rime fog",
+  "Drizzle": "Drizzle: Light, moderate, and dense intensity",
+  "Freezing-Drizzle": "Freezing Drizzle: Light and dense intensity",
+  "Rain-Slight": "Rain: Slight, moderate and heavy intensity",
+  "Freezing": "Freezing Rain: Light and heavy intensity",
+  "Snow-fall": "Snow fall: Slight, moderate, and heavy intensity",
+  "Snow-grains": "Snow grains",
+  "Rain-showers": "Rain showers: Slight, moderate, and violent",
+  "Snow-showers": "Snow showers slight and heavy",
+  "Thunderstorm-Slight": "Thunderstorm: Slight or moderate",
+  "Thunderstorm-heavy": "Thunderstorm with slight and heavy hail"
+}

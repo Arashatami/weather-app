@@ -1,0 +1,20 @@
+{
+  "select-placeholder": "Selecteer stad ...",
+  "search-placeholder": "Zoek stad ...",
+  "Temperature": "Temperatuur",
+  "Windspeed": "Windsnelheid",
+  "Winddirection": "Windrichting",
+  "Weather": "weer",
+  "clear": "Overwegend helder, gedeeltelijk bewolkt en bewolkt",
+  "Fog": "Mist en neerslaande rijpmist",
+  "Drizzle": "Motregen: lichte, matige en dichte intensiteit",
+  "Freezing-Drizzle": "Motregen: lichte, matige en dichte intensiteit",
+  "Rain-Slight": "Regen: Lichte, matige en zware intensiteit",
+  "Freezing": "Freezing Rain: Lichte en zware intensiteit",
+  "Snow-fall": "Sneeuwval: lichte, matige en zware intensiteit",
+  "Snow-grains": "Sneeuwkorrels",
+  "Rain-showers": "Regenbuien: lichte, matige en gewelddadige",
+  "Snow-showers": "Sneeuwbuien licht en zwaar",
+  "Thunderstorm-Slight": "Onweer: licht of matig",
+  "Thunderstorm-heavy": "Onweer met lichte en zware hagel"
+}

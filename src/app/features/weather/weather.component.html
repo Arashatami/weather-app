@@ -1,0 +1,38 @@
+<div class="container">
+  <mat-form-field class="search-feild" appearance="outline">
+    <mat-select [formControl]="cityCtrl" placeholder="{{ 'select-placeholder' |translate}}" #singleSelect>
+      <mat-option>
+        <ngx-mat-select-search 
+        placeholderLabel="{{ 'search-placeholder' |translate}}" 
+        noEntriesFoundLabel="'no matching city found'" [formControl]="cityFilterCtrl"></ngx-mat-select-search>
+      </mat-option>
+      <mat-option *ngFor="let city of filteredCities | async" [value]="city">
+        <div class="city-filter-container">
+          <img height="25px" src="/assets/flags/{{city.country_code | lowercase }}.svg">
+          <span class="title">
+            <span class="city ellipsis">{{city.name}}</span>
+            <span class="country ellipsis">{{city.admin1}}  {{city.country}}</span>
+          </span>
+        </div>
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div class="weather-result" *ngIf="weather | async as $weather">
+    <div class="row">
+      <div class="title">{{"Temperature"|translate}}</div>
+      <div class="content">{{$weather.temperature}} °C</div>
+    </div>
+    <div class="row">
+      <div class="title">{{"Windspeed"|translate}}</div>
+      <div class="content">{{$weather.windspeed}} km/h</div>
+    </div>
+    <div class="row">
+      <div class="title">{{"Winddirection"|translate}}</div>
+      <div class="content">{{$weather.winddirection}} °</div>
+    </div>
+    <div class="row weather">
+      <div class="title">{{"Weather"|translate}}</div>
+      <div class="content">{{$weather.weathercode | weatherCode |translate}}</div>
+    </div>
+  </div>
+</div>

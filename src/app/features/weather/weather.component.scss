@@ -1,0 +1,58 @@
+::ng-deep {
+  .city-filter-container {
+    display: flex;
+    .title {
+      display: flex;
+      .city {
+        font-size: 18px;
+        margin-left: 5px;
+        max-width: 80px;
+      }
+      .country {
+        font-size: 12px;
+        padding-left: 5px;
+        max-width: 180px;
+      }
+      .ellipsis {
+        overflow: hidden;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .search-feild {
+    width: 300px;
+  }
+
+  .weather-result {
+    padding: 20px;
+    width: 265px;
+    margin: 10px auto;
+    box-shadow: inset 0px 0.5px 4px rgba(96, 97, 112, 0.32);
+    border-radius: 8px;
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .content {
+        color: #666;
+        font-weight: bold;
+        /* font-size: 12px; */
+        font-style: italic;
+      }
+      &.weather {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
